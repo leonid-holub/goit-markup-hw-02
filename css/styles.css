@@ -109,12 +109,19 @@
 .button {
 	color: var(--primary-text-color);
 	background-color: var(--primary-background-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	letter-spacing: 0.03em;
+
+	cursor: pointer;
+}
+
+.hero .button {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.06em;
-
-	cursor: pointer;
 }
 
 .button.primary {
@@ -216,4 +223,13 @@
 
 .portfolio .paragraph {
 	color: var(--secondary-text-color);
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+}
+
+.portfolio .title {
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
 }
